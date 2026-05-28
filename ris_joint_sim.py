@@ -38,7 +38,7 @@ PAL = plot_style.PALETTE
 MK = plot_style.MARKERS
 LS = plot_style.LINESTYLES
 
-OUT = '../figures'
+OUT = 'figures'
 os.makedirs(OUT, exist_ok=True)
 
 
