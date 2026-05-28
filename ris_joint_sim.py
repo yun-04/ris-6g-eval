@@ -1,4 +1,6 @@
-"""Joint theoretical-validation figures for the RIS-assisted SISO paper.
+"""A Joint Link-Level Framework for Ris-Assisted
+Wireless Communication with Imperfect CSI, Finite
+Phase Quantization, and Deployment Geometry
 
 Generates the three figures required by the new Section IV (Numerical
 Results) of the restructured paper:
