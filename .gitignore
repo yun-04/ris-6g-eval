@@ -216,3 +216,45 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ===================== Project-specific =====================
+# Numerical artefacts produced by the simulation scripts
+*.npz
+*.npy
+*.csv
+*.mat
+*.h5
+
+# Per-run scratch outputs (the canonical figures in figures/ are tracked,
+# but ad-hoc subfolders are not)
+figures/_scratch/
+figures/runs/
+runs/
+results/
+logs/
+
+# LaTeX intermediates, in case paper sources land here later
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+*.toc
+
+# Editor / OS noise
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archives that should never be committed
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+*.bak
+*.bak.*
